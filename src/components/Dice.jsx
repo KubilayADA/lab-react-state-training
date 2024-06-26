@@ -11,7 +11,7 @@ const Dice = () => {
         'src/assets/images/dice6.png'
     ];
 
-    const [diceImage, setDiceImage] = useState('/assets/images/dice-empty.png');
+    const [diceImage, setDiceImage] = useState('src/assets/images/dice-empty.png');
     const [isRolling, setIsRolling] = useState(false);
 
     const rollDice = () => {
